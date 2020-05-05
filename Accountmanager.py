@@ -1,5 +1,5 @@
 # This module contains the functions needed to manage accounts by interacting with database
-
+#sambeg
 import pandas as pd
 
 path_to_documents_db = "database/Documents.csv"
