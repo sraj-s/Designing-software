@@ -1,0 +1,80 @@
+
+
+
+# for admin
+
+def process_registration(registration id):
+    show registration form to admin
+    approved or denined decision will be made.
+
+def close_user account(username):
+    Search the user account in the database 
+    generate a case Case_id
+    remove the user account from the database
+
+def show_resturant():
+    list the resturant participated 
+    update the status
+
+def show_nonprofit_organization():
+    list the name of claimant 
+    update the status in the database.
+
+
+
+
+#for Ordinary user/Resturant owner
+
+ def fillform():
+    form will be displayed
+    form contains the info about the name of resturant 
+    , location , and time of availability for pickup.
+    submitted to admin
+    
+def food_type():
+     options mentioning types of food will be displayed.
+     Info about quantity will be also mentioned 
+     Info about ingredients will be also included
+     Submitted to admin
+
+def expiration_date():
+    calender will be displayed with an option
+    to click the expiry date of the leftover food items.
+    submiited to admin
+
+def make_post():
+    post about resturant, location , food along
+     with expiration date will be make public after being evaluated by admin.
+     date and time of posted will be also displayed.
+
+def make_public():
+    make informaton public to all the members including
+    visitors and registered non-profit organization.
+
+# for non profit organization
+def fillform():
+    form will be displayed
+    form contains the info about the name of organization 
+    , location, liscense or any valid govermental certification.
+    submitted to admin 
+
+def make_claim();
+    All resturants name along with their location will be displayed.
+    Displayed a option mentioning "make claim"
+    Information sent to the resturant owner.
+
+def leave_message():
+    Either thank you note or
+    extreme emergency to not make a claim on time will be displayed.
+    submitted  to resturant owner
+
+# for Visitor user 
+
+def random_search():
+    search for the app info/ resturant participated  
+    display the content in the new window
+
+def signup():
+    option will be displayed mentioning either he/she is
+    a resturant ownwer or a non profit organizatiom. 
+    form submitted to the admin
